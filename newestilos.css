@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #89598e;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 30px 20px 30px 30px;
+    margin-left: 20px;
+}
+
+.foto {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border-style: dashed;
+    border-color: #7167a4;
+    padding: 10px;
+}
+
+.imgt{
+    height: 120px;
+    width: 170px;
+    border-radius: 8%;
+    margin-right: 10px;
+}
+
+.imag{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.section1 {
+    background-color: #7167a4;
+    top: 20px;
+    position: sticky;
+    height: 100%;
+    padding: 10px;
+    border-style: dashed;
+    border-color:#a24b78;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.section{
+    border-style: dashed;
+    border-radius: 10px;
+    border-color:#7167a4;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 575px){
+    .section1{
+        position:static;
+    }
+}
+
+/* @media (min-width: 576px) and (max-width: 950px) {
+    .field{
+        width: 200px;
+    }
+} */
+
+
+.divcolor:hover {
+    background-color: #a24b78;
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+.barra:hover {
+    transform: scale(1.05);
+}
+
+.boton{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+  
+}
+
+.texto{
+    text-align: justify;
+    color: #fff;
+}
+
+.pd{
+    padding: 15px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field label {
+    display: block;
+    font-size: 18px;
+    color: black;
+}
+
+.field input {
+    display: block;
+    max-width: auto;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
