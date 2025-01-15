@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: #89598e;
+    background-color: #CCA9DD;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     padding: 30px 20px 30px 30px;
     margin-left: 20px;
+}
+
+.pd{
+    padding: 5px;
 }
 
 .foto {
@@ -34,13 +38,11 @@ body {
 }
 
 .section1 {
-    background-color: #7167a4;
+    background-color: #89598e;
     top: 20px;
     position: sticky;
     height: 100%;
     padding: 10px;
-    border-style: dashed;
-    border-color:#a24b78;
     border-radius: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -69,7 +71,7 @@ body {
 
 
 .divcolor:hover {
-    background-color: #a24b78;
+    background-color: #89598e;
     border-radius: 10px;
     transform: scale(1.05);
 }
@@ -90,10 +92,7 @@ body {
     color: #fff;
 }
 
-.pd{
-    padding: 15px;
-}
-
+/*Formulario*/
 .field {
     margin-bottom: 10px;
 }
